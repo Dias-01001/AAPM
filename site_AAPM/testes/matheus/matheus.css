@@ -24,7 +24,18 @@ h3 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 2rem;
     margin: .5rem;
     padding: .5rem;
 }
+
+.card-img-top {
+    background-color: black;
+    height: 20rem;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: end;
+}
+
