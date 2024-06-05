@@ -29,3 +29,13 @@ p {
   padding: 0.2rem;
 }
 
+.barra-cinza {
+  width: 50vw;
+  border: 0.1rem gray solid;
+}
+
+.futuro-carrosel {
+  width: 15vw;
+  height: 60vh;
+  background-color: aqua;
+}
