@@ -80,15 +80,15 @@ p {
 
 /* <-- ----------------------------------------------- CARROSEL ---------------------------------------------- --> */
 
-
 .container-carrosel{
   width: 90vw;
   height: 55vh;
+  margin-top: 5vh;
   margin-left: 5vw;
-  margin-top: 10vh;
 }
 
 .container-carrosel img{
+  height: 55vh;
   background-color: aquamarine;
 }
 
