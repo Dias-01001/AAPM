@@ -1,41 +1,54 @@
 * {
-    font-size: 62.5%;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 h1 {
-    font-size: 5rem;
-    margin: .5rem;
-    padding: .5rem;
+  font-size: 5rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 h2 {
-    font-size: 4rem;
-    margin: .5rem;
-    padding: .5rem;
+  font-size: 4rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 h3 {
-    font-size: 3rem;
-    margin: .5rem;
-    padding: .5rem;
+  font-size: 3rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 p {
-    font-size: 2rem;
-    margin: .5rem;
-    padding: .5rem;
+  font-size: 2rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
-.card-img-top {
-    background-color: black;
-    height: 20rem;
+.container {
+  height: 30vh;
+  position: relative;
 }
 
-.navbar-collapse {
-    display: flex;
-    justify-content: end;
+.front {
+  width: 50rem;
+  position: absolute;
 }
 
+.transicao {
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.container-fluid:hover .transicao {
+  opacity: 1;
+}
+
+.back img {
+  width: 50rem;
+}
