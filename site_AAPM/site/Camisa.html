@@ -24,40 +24,42 @@
     <title>Camisa</title>
   </head>
   <body>
-    <header class="conteiner-fluid">
-      <nav class="navegacao" id="nav-corporativa">
-        <ul class="navbar-nav" id="nav-corp">
-          <li class="nav-iten" id="itens">
+    <header class="container-navegacao">
+      <nav class="navegacao" id="nav-corporativa1">
+        <ul class="navbar-nav d-flex flex-row-reverse" id="nav-corp">
+          <li class="m-4" id="item">
             <a href="#"><p>FIESP</p></a>
           </li>
-          <li class="nav-iten" id="itens">
+          <li class="m-4" id="item">
             <a href="#"><p>CIESP</p></a>
           </li>
-          <li class="nav-iten" id="itens">
+          <li class="m-4" id="item">
             <a href="#"><p>SESI</p></a>
           </li>
-          <li class="nav-iten" id="itens">
+          <li class="m-4" id="item">
             <a href="#"><p>SENAI</p></a>
           </li>
-          <li class="nav-iten" id="itens">
+          <li class="m-4" id="item">
             <a href="#"><p>IRS</p></a>
           </li>
         </ul>
       </nav>
 
-      <section class="container-xxl">
+      <section class="container2">
         <nav class="navegacao" id="nav-corporativa">
-          <ul class="navbar-nav" id="nav-corp">
-            <li class="nav-iten" id="itens">
-              <a href="#"><img src="https://www.sp.senai.br/" alt="SENAI" /></a>
+          <ul class="navbar-nav d-flex flex-row" id="nav-corp">
+            <li class="m-2" id="itens">
+              <a href="https://www.sp.senai.br/"
+                ><img class="mt-2  mt-4"  src="senai.png" alt="SENAI"
+              /></a>
             </li>
-            <li class="nav-iten" id="itens">
+            <li class="m-3  mt-5" id="itens">
               <a href="index.html"><p>Loja</p></a>
             </li>
-            <li class="nav-iten" id="itens">
+            <li class="m-3  mt-5" id="itens">
               <a href="https://www.sp.senai.br/unidades"><p>Unidades</p></a>
             </li>
-            <li class="nav-iten" id="itens">
+            <li class="m-3  mt-5" id="itens">
               <a href="https://transparencia.sp.senai.br/sac"
                 ><p>Fala Conosco</p></a
               >
@@ -73,41 +75,51 @@
       <div class="barra-cinza"></div>
     </section>
 
-    <section class="container-fluid">
-      
-      <figure class="futuro-carrosel">
-        <img src="" alt="img carrosel camisas" />
-      </figure>
+    <section class="container-camisa">
+      <section class="container-carrosel">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="" class="d-block w-100" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <section class="info-camisa">
-        <h3>Camisa</h3>
-        <h2>Camisa Senai</h1>
-        <h1>Valor 50,00</h1>
-        <p>parcelamento 3x no cartao</p>
-      </section>
+      <section class="camisa">
+        <section class="info-camisa">
+          <h3>Camisa</h3>
+          <h2>Camisa Senai</h1>
+          <h1>Valor 50,00</h1>
+          <p>parcelamento 3x no cartao</p>
+        </section>
 
-      <section class="btn-cor-camisa">
-        <button type="button">branco</button>
-        <button type="button">preto</button>
-      </section>
+        <section class="btn-cor-camisa">
+          <h3>Cor camisa:</h3>
+          <button type="button" class="btn btn-dark" data-bs-toggle="button"></button>
+          <button type="button" class="btn btn-light" data-bs-toggle="button"></button>
+        </section>
 
-      <section class="tamanho-camisa">
-        <p>Selecione o tamanho:</p>
-        <p>Quantidade</p>
-      </section>
-      <section class="btn-tamanho-camisa">
-        <button type="button">P</button>
-        <button type="button">M</button>
-        <button type="button">G</button>
-        <button type="button">GG</button>
-        <input type="text">
-      </section>
+        <section class="tamanho-camisa">
+          <p>Selecione o tamanho:</p>
+          <input type="number" placeholder="Quantidade:">
+        </section>
+        <section class="btn-tamanho-camisa">
+          <button type="button" class="btn btn-secondary" data-bs-toggle="button">P</button>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="button">M</button>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="button">G</button>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="button">GG</button>
+          
+        </section>
 
-      <section class="prazo-entrega">
-        <h2>Calcule o prazo de entrega</h2>
-        <input type="text">
+        <!-- <section class="prazo-entrega">
+          <h2>Calcule o prazo de entrega</h2>
+          <input type="text">
+        </section> -->
       </section>
-
     </section>
 
     <footer class="container-footer">

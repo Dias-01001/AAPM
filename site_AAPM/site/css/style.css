@@ -32,6 +32,8 @@ p {
  
 }
 
+/* <-- ----------------------------------------------- NAVEGAÇÃO ---------------------------------------------- -->  */
+
 .txt-senai h3 {
   color: crimson;
   
@@ -74,4 +76,88 @@ p {
 .container2 img {
   width: 15rem;
   height: 5rem;
+}
+
+/* <-- ----------------------------------------------- CARROSEL ---------------------------------------------- --> */
+
+
+.container-carrosel{
+  width: 90vw;
+  height: 55vh;
+  margin-left: 5vw;
+  margin-top: 10vh;
+}
+
+.container-carrosel img{
+  background-color: aquamarine;
+}
+
+
+/* <-- ----------------------------------------------- FOOTER ---------------------------------------------- --> */
+
+.redes-sociais {
+  width: 100%;
+  background-color: #e30613;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes-sociais i {
+  font-size: 3.5rem;
+  padding-right: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: white;
+}
+
+.redes-sociais a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+.sede-fiesp {
+  margin-left: 10rem;
+}
+
+.sede-fiesp p {
+  font-weight: 200;
+}
+
+.sede-fiesp h3 {
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dc3545;
+  height: 40rem;
+  color: white;
+}
+
+.central-relacionamento {
+  margin-right: 25rem;
+}
+
+.central-relacionamento p {
+  font-weight: 200;
+}
+
+.central-relacionamento h3 {
+  font-weight: 700;
+}
+
+.copyright {
+  background-color: #e30613;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  height: 5vh;
 }
