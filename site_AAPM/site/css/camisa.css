@@ -3,6 +3,7 @@
   padding: 0;
   font-size: 62.5%;
   box-sizing: border-box;
+  font-family: Montserrat;
 }
 
 h1 {
@@ -38,4 +39,76 @@ p {
   width: 15vw;
   height: 60vh;
   background-color: aqua;
+}
+
+
+
+/* FOOTER */
+
+
+.redes-sociais {
+  width: 100%;
+  background-color: #e30613;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes-sociais i {
+  font-size: 3.5rem;
+  padding-right: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: white;
+}
+
+.redes-sociais a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+.sede-fiesp {
+  margin-left: 10rem;
+}
+
+.sede-fiesp p {
+  font-weight: 200;
+}
+
+.sede-fiesp h3 {
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dc3545;
+  height: 40rem;
+  color: white;
+}
+
+.central-relacionamento {
+  margin-right: 25rem;
+}
+
+.central-relacionamento p {
+  font-weight: 200;
+}
+
+.central-relacionamento h3 {
+  font-weight: 700;
+}
+
+.copyright {
+  background-color: #e30613;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  height: 5vh;
 }
