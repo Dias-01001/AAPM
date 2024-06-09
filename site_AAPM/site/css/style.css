@@ -101,6 +101,65 @@ margin-left: 10rem;
   background-color: aquamarine;
 }
 
+/* <-- ----------------------------------------------- Cards ---------------------------------------------- --> */
+
+.card {
+  width: 28.6rem;
+}
+
+.a {
+  position: relative;
+  height: 20vh;
+}
+
+.front  img{
+width: 28.4rem;
+  height: 20rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.front1  img{
+
+  height: 20rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.transicao {
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.a:hover .transicao {
+  opacity: 1;
+}
+
+.back img {
+ width: 28.5rem;
+  height: 20rem;
+  position: absolute;
+  left: -.8rem;
+  top: -1rem;
+  padding: 2rem;
+  background-color: black;
+}
+
+.card-body a {
+  display: flex;
+  width: 20rem;
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+
+.container-footer {
+  margin-top: 5rem;
+}
 
 /* <-- ----------------------------------------------- FOOTER ---------------------------------------------- --> */
 
@@ -171,55 +230,3 @@ a:active {
   height: 5vh;
 }
 
-/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
-
-.card {
-  width: 28.6rem;
-}
-
-.a {
-  position: relative;
-  height: 20vh;
-}
-
-.front  img{
-
-  height: 20rem;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.transicao {
-  position: absolute;
-  opacity: 0;
-  transition: 0.5s ease;
-}
-
-.a:hover .transicao {
-  opacity: 1;
-}
-
-.back img {
- width: 28.5rem;
-  height: 20rem;
-  position: absolute;
-  left: -.8rem;
-  top: -1rem;
-  padding: 2rem;
-  background-color: black;
-}
-
-.card-body a {
-  display: flex;
-  width: 20rem;
-  height: 5rem;
-  justify-content: center;
-  align-items: center;
-  margin-left: 3rem;
-  font-size: 2rem;
-}
-
-.container-footer {
-  margin-top: 5rem;
-}
