@@ -119,13 +119,7 @@ width: 28.4rem;
   left: 0;
   top: 0;
 }
-.front1  img{
 
-  height: 20rem;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
 
 .transicao {
   position: absolute;
@@ -143,7 +137,6 @@ width: 28.4rem;
   position: absolute;
   left: -.8rem;
   top: -1rem;
-  padding: 2rem;
   background-color: black;
 }
 
