@@ -90,31 +90,31 @@ margin-left: 10rem;
 /* <-- ----------------------------------------------- CARROSEL ---------------------------------------------- --> */
 
 .container-carrosel{
-  width: 90vw;
+  width: 100vw;
   height: 55vh;
   margin-top: 5vh;
-  margin-left: 5vw;
+
 }
 
 .container-carrosel img{
-  height: 55vh;
+  height: 30rem;
   background-color: aquamarine;
 }
 
 /* <-- ----------------------------------------------- Cards ---------------------------------------------- --> */
 
 .card {
-  width: 28.6rem;
+  width: 20rem;
 }
 
 .a {
   position: relative;
-  height: 20vh;
+  height: 35rem;
 }
 
 .front  img{
-width: 28.4rem;
-  height: 20rem;
+width: 20rem;
+  
   position: absolute;
   left: 0;
   top: 0;
@@ -132,21 +132,21 @@ width: 28.4rem;
 }
 
 .back img {
- width: 28.5rem;
-  height: 20rem;
+  width: 20rem;
   position: absolute;
   left: -.8rem;
   top: -1rem;
   background-color: black;
 }
 
+
 .card-body a {
   display: flex;
-  width: 20rem;
+  width: 80%;
   height: 5rem;
   justify-content: center;
   align-items: center;
-  margin-left: 3rem;
+  margin-left: 10%;
   font-size: 2rem;
 }
 
