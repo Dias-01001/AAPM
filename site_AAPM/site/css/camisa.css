@@ -84,14 +84,13 @@ p {
 /* <-- ----------------------------------------------- CARROSEL ---------------------------------------------- --> */
 
 .container-carrosel{
-  width: 20vw;
+  width: 30rem;
   height: 60vh;
 }
 
 .container-carrosel img{
-  width: 40rem;
   height: 50rem;
-  background-color: aquamarine;
+  
 }
 /* <-- ----------------------------------------------- CAMISA INFO ---------------------------------------------- --> */
 .container-camisa{
